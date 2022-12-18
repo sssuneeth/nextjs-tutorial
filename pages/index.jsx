@@ -1,9 +1,7 @@
 import { Inter } from '@next/font/google'
 import { Box, Grid, Typography } from '@mui/material'
 import User from '../components/user'
-
-
-const inter = Inter({ subsets: ['latin'] })
+import { AppProps } from 'next/app';
 
 export default function Home({ users }) {
    return (
